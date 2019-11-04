@@ -31,3 +31,10 @@
     // 8b console log those words
     // 8c use "join" to create a sentence outputted in a console log
 
+// 9 create an array of 10 javascript concepts
+    // 9a using a "do ... while" loop, console.log each concept with a labeling string
+    // example output for one loop: "we have learned about ____ in javascript" (i.e. variables)
+
+// 10 create a function that injects a clickable div on the document
+    // 10a when clicking on the button, a message appears next to the div
+    
