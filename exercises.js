@@ -2,19 +2,28 @@
 console.log("Hello" "+" "World");
 
 // 2 create a prompt which asks for your favorite number
-
 console.log("What is your favorite number?");
+
 // 2a display the response in the console with "user's favorite nunber is: (display input)"
-
 console.log("6");
-// 3 create a variable which selects the h1
-    // 3a add inner text to the header selector
-    
-    // 3b add a border around the h1 that is 1px, solid, and black. use "cssText" to add this
- 
 
+// 3 create a variable which selects the h1
+document.getElementById('text').innerHTML;  ...the H1 element has to be assigned a id, 
+example below...
+
+// 3a add inner text to the header selector
+<h1 id="text">Welcome To America</h1>  
+
+// 3b add a border around the h1 that is 1px, solid, and black. use "cssText" to add this
+H1 {
+    border: 1px solid black;
+}
+, 
 // 4 console.log a variable tht holds an array of the alphabet
-    // 4a use "slice" to remove the vowels, including "y"
+console.log("a", "b", "c", "d", "e", "f","g", "h","i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+ "t", "u", "v", "w", "x", "y", "z");
+// 4a use "slice" to remove the vowels, including "y"
+var remove =     
     // 4b console.log the remaining array of consonants, label the console log with a string
     // 4c  console.log the length of this array, label it with a string
 
