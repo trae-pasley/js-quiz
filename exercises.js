@@ -1,29 +1,30 @@
 // 1 create an alert that says "hello world"
-console.log("Hello" "+" "World");
+alert("Hello" "+" "World");
 
 // 2 create a prompt which asks for your favorite number
-console.log("What is your favorite number?");
+prompt("What is your favorite number?");
 
 // 2a display the response in the console with "user's favorite nunber is: (display input)"
-console.log("6");
+let prompt = "6";
 
 // 3 create a variable which selects the h1
-document.getElementById('text').innerHTML;  ...the H1 element has to be assigned a id, 
-example below...
+document.getElementById(id).  
 
 // 3a add inner text to the header selector
-<h1 id="text">Welcome To America</h1>  
+document.getElementById(id).innerText;  
 
 // 3b add a border around the h1 that is 1px, solid, and black. use "cssText" to add this
-H1 {
-    border: 1px solid black;
-}
-, 
+document.getElementById("myborder").style.cssText = "border:1px black solid";
+
 // 4 console.log a variable tht holds an array of the alphabet
-console.log("a", "b", "c", "d", "e", "f","g", "h","i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
- "t", "u", "v", "w", "x", "y", "z");
+var americanAlphabet = "a, 'b', "c", "d", "e", "f","g", "h","i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s",
+"t", "u", "v", "w", "x", "y", 'z';
+
+console.log(americanAlphabet);
+
 // 4a use "slice" to remove the vowels, including "y"
-var remove =     
+var vowels = americanAlphabet.slice(0,4,9,15,21,25);
+
     // 4b console.log the remaining array of consonants, label the console log with a string
     // 4c  console.log the length of this array, label it with a string
 
@@ -36,7 +37,7 @@ var remove =
     // 6a create a for loop to dynamically create a sentence describing each "person"
     // 6b inject these sentences in "p" elements in the html div
 
-// 7 create two "const" variables of strings. console log the combined result using "concat"
+// 7 create two "const" variables of array of strings. console log the combined result using "concat"
 
 // 8 create an array of strings made up of words of a quote or nursery rhyme.
     // 8a use the "filter" method on the array variable to gather the words with length greater than 3
